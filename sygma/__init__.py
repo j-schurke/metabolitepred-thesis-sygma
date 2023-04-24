@@ -3,4 +3,4 @@ from sygma.tree import *
 from sygma.treenode import *
 from sygma.ruleset import *
 
-__version__ = '1.1.0'
+__version__ = '1.1.0_adjusted'
