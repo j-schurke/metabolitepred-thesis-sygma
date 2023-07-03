@@ -74,6 +74,6 @@ class TreeNode:
             else:
                 AllChem.Compute2DCoords(self.mol)
 
-        except ValueError:
+        except (ValueError, ZeroDivisionError):
             AllChem.Compute2DCoords(self.mol)
             self.n_original_atoms = self.mol.GetNumAtoms()
