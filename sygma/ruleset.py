@@ -12,7 +12,7 @@ phase2
 import pkg_resources
 
 ruleset = {
-    "phase1": pkg_resources.resource_filename('sygma', "../../../../rules/phase1.txt"),
+    "phase1": pkg_resources.resource_filename('sygma', "../../rules/phase1.txt"),
     "phase2": pkg_resources.resource_filename('sygma', "../../rules/phase2.txt"),
     "phase3": pkg_resources.resource_filename('sygma', "../../rules/phase3.txt"),
 
@@ -46,13 +46,13 @@ ruleset = {
     "all_rules_specific0": pkg_resources.resource_filename('sygma', "../../rules/all_rules_specific0.txt"),
     "all_rules_specific3": pkg_resources.resource_filename('sygma', "../../rules/all_rules_specific3.txt"),
 ### EC main classes
-    "EC1_radius3": pkg_resources.resource_filename('sygma', "../../rules/all_EC1_3.txt"),
-    "EC2_radius3": pkg_resources.resource_filename('sygma', "../../rules/all_EC2_3.txt"),
-    "EC3_radius3": pkg_resources.resource_filename('sygma', "../../rules/all_EC3_3.txt"),
-    "EC4_radius3": pkg_resources.resource_filename('sygma', "../../rules/all_EC4_3.txt"),
-    "EC5_radius3": pkg_resources.resource_filename('sygma', "../../rules/all_EC5_3.txt"),
-    "EC6_radius3": pkg_resources.resource_filename('sygma', "../../rules/all_EC6_3.txt"),
-    "EC7_radius3": pkg_resources.resource_filename('sygma', "../../rules/all_EC7_3.txt"),
+    "EC1": pkg_resources.resource_filename('sygma', "../../rules/all_EC1_3.txt"),
+    "EC2": pkg_resources.resource_filename('sygma', "../../rules/all_EC2_3.txt"),
+    "EC3": pkg_resources.resource_filename('sygma', "../../rules/all_EC3_3.txt"),
+    "EC4": pkg_resources.resource_filename('sygma', "../../rules/all_EC4_3.txt"),
+    "EC5": pkg_resources.resource_filename('sygma', "../../rules/all_EC5_3.txt"),
+    "EC6": pkg_resources.resource_filename('sygma', "../../rules/all_EC6_3.txt"),
+    "EC7": pkg_resources.resource_filename('sygma', "../../rules/all_EC7_3.txt"),
 ### EC second level
     "EC1.1": pkg_resources.resource_filename('sygma', "../../rules/all_EC1.1_3.txt"),
     "EC1.2": pkg_resources.resource_filename('sygma', "../../rules/all_EC1.2_3.txt"),
