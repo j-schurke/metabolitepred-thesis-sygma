@@ -45,6 +45,12 @@ ruleset = {
     "all_rules_correct3": pkg_resources.resource_filename('sygma', "../../rules/all_rules_correct3.txt"),
     "all_rules_specific0": pkg_resources.resource_filename('sygma', "../../rules/all_rules_specific0.txt"),
     "all_rules_specific3": pkg_resources.resource_filename('sygma', "../../rules/all_rules_specific3.txt"),
+
+    "rhea_all_human": pkg_resources.resource_filename('sygma', "../../rules/rhea_all_human"),
+    "rhea_all": pkg_resources.resource_filename('sygma', "../../rules/rhea_all"),
+    "chembl_all": pkg_resources.resource_filename('sygma', "../../rules/chembl_all"),
+    "chembl_all_human": pkg_resources.resource_filename('sygma', "../../rules/chembl_all_human"),
+
 ### EC main classes
     "EC1": pkg_resources.resource_filename('sygma', "../../rules/all_EC1_3.txt"),
     "EC2": pkg_resources.resource_filename('sygma', "../../rules/all_EC2_3.txt"),
@@ -95,7 +101,7 @@ ruleset = {
     "EC4.9": pkg_resources.resource_filename('sygma', "../../rules/all_EC4.9_3.txt"),
 
     "EC6.1": pkg_resources.resource_filename('sygma', "../../rules/all_EC6.1_3.txt"),
-    "EC4.2": pkg_resources.resource_filename('sygma', "../../rules/all_EC6.2_3.txt"),
+    "EC6.2": pkg_resources.resource_filename('sygma', "../../rules/all_EC6.2_3.txt"),
     "EC6.3": pkg_resources.resource_filename('sygma', "../../rules/all_EC6.3_3.txt"),
     "EC6.4": pkg_resources.resource_filename('sygma', "../../rules/all_EC6.4_3.txt"),
     "EC6.5": pkg_resources.resource_filename('sygma', "../../rules/all_EC6.5_3.txt"),
